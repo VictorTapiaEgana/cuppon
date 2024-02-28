@@ -1,0 +1,92 @@
+:root{
+    --color-success:#28A745;
+    --color-producto:#212529;
+    --color-blanco:#fff;
+    --color-precio:#707070;
+}
+
+.navbar{
+    background-color: var(--color-success);    
+}
+
+.navbar-brand img{
+    width: 86px;    
+}
+
+#producto{
+    color: var(--color-producto);
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+#ubicacion  h3 {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#card-footer{
+    background-color: var(--color-blanco);
+    margin-bottom: -16PX;
+}
+
+#precio,#precioverde{
+    font-family: "Roboto";    
+}
+
+#precio{
+    font-weight:lighter;
+    font-size: 16px;
+    color: var(--color-precio);
+}
+
+#precioverde{
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color-success);
+}
+
+#contacto{
+    background-color: var(--color-success);
+}
+
+#cupones{
+    font-family: "Roboto";
+    font-size:21px ;
+    font-weight: 400;
+    color: var(--color-blanco);
+}
+
+#botonenviar{
+    background-color: var(--color-blanco);
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 117px;
+}
+
+#imgfooter{
+    width: 82px;
+}
+
+#derechosfooter{
+    color: var(--color-precio);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+@media (min-width: 768px) {
+
+    #contacto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #contacto>h3, #contacto>div>input {
+        width: 300px;               
+    }
+ }
